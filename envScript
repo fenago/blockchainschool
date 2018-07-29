@@ -1,0 +1,11 @@
+cd ~
+curl -O https://hyperledger.github.io/composer/latest/prereqs-ubuntu.sh
+chmod u+x prereqs-ubuntu.sh
+./prereqs-ubuntu.sh
+mkdir blocklearner && cd blocklearner
+npm install nodemon express body-parser morgan mongoose ejs ejs-mate passport express-session cookie-parser connect-mongo express-flash async request stripe passport-facebook --save
+// may need to install nodemon with -g flag
+echo 'Add your password'
+sudo add-apt-repository ppa:webupd8team/atom
+sudo apt update; sudo apt install atom
+git clone 
